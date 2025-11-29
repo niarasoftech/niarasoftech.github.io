@@ -12,7 +12,11 @@ https://templatemo.com/tm-597-neural-glass
  * {
      margin: 0;
      padding: 0;
+    
      box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;    /* removes sideways scrolling */
 }
  body {
      font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
@@ -23,6 +27,7 @@ https://templatemo.com/tm-597-neural-glass
      font-weight: 400;
      line-height: 1.6;
      -webkit-font-smoothing: antialiased;
+     overflow-x: hidden;    /* removes sideways scrolling */
      -moz-osx-font-smoothing: grayscale;
 }
 /* Enhanced background colors - Purple/Pink/Green palette */
@@ -206,6 +211,9 @@ header {
      justify-content: space-between;
      align-items: center;
 }
+
+
+
  .logo {
      display: flex;
      align-items: center;
