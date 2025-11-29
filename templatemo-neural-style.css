@@ -1248,7 +1248,7 @@ header {
     /* Update the existing hexagon styles for mobile */
     .hexagon {
         width: 280px;  /* Increased from 180px */
-        height: 320px; /* Increased from 200px */
+        height: 280px; /* Increased from 200px */
         margin: 30px auto; /* Center and add more spacing */
     }
     
